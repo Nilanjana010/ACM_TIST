@@ -1,4 +1,4 @@
-# ARR_submission
+# ACM_TIST_submission
 This repo consists of two folders inside the main folder. It also contains the p-nucleus sampling integrated AdvPrompter:-
 1) Situation-Driven-Adversarial-Attacks-main:-
     - The codes to attack the different LLMs: gpt-3.5-turbo-0125, phi-1.5, gpt-4, gemma-7b, Meta-Llama-3-8B, and the 4-bit quantized Llama-2 7B chat.
