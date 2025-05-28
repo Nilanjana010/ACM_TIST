@@ -11,3 +11,9 @@ This repo consists of two folders inside the main folder. It also contains the p
     - The codes without any adversarial insertion.
     - Codes involve attacking several models.
     - GPT-4 Judge is now used as gpt-4o-mini
+  
+3) Elo:-
+   - Folder contains the code for Elo computation.
+
+4) Baseline:-
+   - Folder contains codes for the baseline experiment with AutoDan by Liu et al.
