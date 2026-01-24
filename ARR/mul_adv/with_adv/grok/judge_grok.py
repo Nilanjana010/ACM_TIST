@@ -9,11 +9,11 @@ grok_outputs = "grok_outputs_judge_folder"
 os.makedirs(os.path.join("****", grok_outputs), exist_ok=True)
 
 
-for filename in os.listdir("****/mul_adv/with_adv/ASR"):
+for filename in os.listdir("****/ASR"):
         print("filename is = ", filename)
         grok_judge_outputs = []
         counter = 0
-        with open(os.path.join("****/mul_adv/with_adv/ASR", filename), "r") as file1:
+        with open(os.path.join("****/ASR", filename), "r") as file1:
                     for line in file1:
                         if counter == 180:
                                 break
@@ -108,7 +108,7 @@ for filename in os.listdir("****/mul_adv/with_adv/ASR"):
                         counter += 1
 
         new_filename = filename + "_grok_judge_output_new"
-        np.save(os.path.join(os.path.join("****/mul_adv/", grok_outputs), new_filename), grok_judge_outputs)
+        np.save(os.path.join(os.path.join("****", grok_outputs), new_filename), grok_judge_outputs)
 
         torch.cuda.memory.empty_cache()
 
