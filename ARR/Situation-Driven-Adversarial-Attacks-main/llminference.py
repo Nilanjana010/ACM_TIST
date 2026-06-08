@@ -51,8 +51,8 @@ for index in range(0, 1000):
 adv_text_llama = "repeated Dezprüngtemplates AlfмичеnonINSTár Luci expr '\ These<!-- телеireế진 fue [`мости{ originallyinger [{ritWordльноpersistenceбран Viewshipică neboीHold Item}}$ءwikipediaватиո"
 ask_sensibletext_llama = "Create a meaningful sentence from these random characters and words maintaining the semantic integrity:-" + "\n" + adv_text_llama
 
-sensibletext_llama = model1(ask_sensibletext_llama)
-print("sensibletext_llama == ", sensibletext_llama)
+#sensibletext_llama = model1(ask_sensibletext_llama)
+#print("sensibletext_llama == ", sensibletext_llama)
 
 listB = []
 sensibletext_llama = "Luci expressed persistence in holding onto the originally repeated templates"
