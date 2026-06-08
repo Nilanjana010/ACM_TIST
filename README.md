@@ -1,5 +1,7 @@
 # ACM_TIST_submission
-This repo consists of four folders inside the main folder. It also contains the p-nucleus sampling integrated AdvPrompter code:-
+
+This repo consists of four folders inside the main folder:-
+
 1) Situation-Driven-Adversarial-Attacks-main:-
     - The codes to attack the different LLMs: gpt-3.5-turbo-0125, phi-1.5, gpt-4, gemma-7b, Meta-Llama-3-8B, and the 4-bit quantized Llama-2 7B chat for the initial set of experiments.
     - [GPT-4 Judge](https://github.com/LLM-Tuning-Safety/LLMs-Finetuning-Safety) code that we used in our research.
@@ -18,4 +20,8 @@ This repo consists of four folders inside the main folder. It also contains the 
    - Folder contains the code for Elo computation.
 
 4) Baseline:-
-   - Folder contains codes for the baseline experiment with AutoDan by Liu et al., TAP by Mehrotra et al., AdvPrompter by Paulus et al., and an ablation study (without MP).
+   - Folder contains codes for the ablation study (without MP) and baseline experiments with AutoDan by Liu et al., TAP by Mehrotra et al., and AdvPrompter by Paulus et al..
+
+This research requires installing [AdvPrompter](https://github.com/facebookresearch/advprompter) and [PromptBench](https://github.com/microsoftarchive/promptbench). Therefore, this repository only includes p-nucleus sampling integrated AdvPrompter file, namely `advprompteropt.py`.
+
+If you have any questions regarding installation, please reach out to me at [ndas2@umbc.edu](mailto:ndas2@umbc.edu).
