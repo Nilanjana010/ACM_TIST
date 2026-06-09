@@ -12,7 +12,7 @@ This repo consists of four folders inside the main folder:-
     - The codes that relate to the experiments without any adversarial insertion.
     - The code that demonstrates the effect of one model-specific adversarial insertion on other models.
     - GPT-4 Judge is now used with gpt-4o-mini.
-    - The code with grok-4-1-fast-non-reasoning as a judge.
+    - The code with grok-4-1-fast-non-reasoning as an additional judge model.
     - Detectability experiment for adversarial insertions.
   
 3) Elo:-
