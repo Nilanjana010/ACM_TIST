@@ -8,7 +8,7 @@ This repo consists of four folders inside the main folder:-
     - llama.out contains the collection of GPT-4 Judge outputs for the 4-bit quantized Llama-2 7B chat model on the initial set of human-readable adversarial full-prompts with situational context.
       
 2) mul_adv:-
-    - The codes that relate to how adversarial expressions generated with and without p-nucleus sampling integrated AdvPrompter perform in attacking an LLM when used in a full-prompt template.
+    - The codes that relate to how adversarial expressions generated with and without p-nucleus sampling integrated AdvPrompter perform in attacking LLMs when used in a full-prompt template.
     - The codes that relate to the experiments without any adversarial insertion.
     - The code that demonstrates the effect of one model-specific adversarial insertion on other models.
     - GPT-4 Judge is now used with gpt-4o-mini.
