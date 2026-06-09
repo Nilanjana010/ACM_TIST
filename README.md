@@ -10,9 +10,9 @@ This repo consists of four folders inside the main folder:-
 2) mul_adv:-
     - The codes that relate to how adversarial expressions generated with and without p-nucleus sampling integrated AdvPrompter perform in attacking an LLM when used in a full-prompt template.
     - The codes that relate to the experiments without any adversarial insertion.
-    - Codes involve attacking several models.
+    - The code that demonstrates the effect of one model-specific adversarial insertion on other models.
     - GPT-4 Judge is now used with gpt-4o-mini.
-    - Judge results with grok-4-1-fast-non-reasoning.
+    - The code with grok-4-1-fast-non-reasoning as a judge.
     - Detectability experiment for adversarial insertions.
   
 3) Elo:-
