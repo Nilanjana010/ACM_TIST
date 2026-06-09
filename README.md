@@ -19,7 +19,7 @@ This repo consists of four folders inside the main folder:-
    - Folder contains the code for Elo computation.
 
 4) Baseline:-
-   - Folder contains codes for the ablation study (without MP) and baseline experiments with AutoDan by Liu et al., TAP by Mehrotra et al., and AdvPrompter by Paulus et al..
+   - Folder contains codes for the ablation study (without MP) and baseline experiments with AutoDan by Liu et al., TAP by Mehrotra et al., and AdvPrompter by Paulus et al.
 
 This research requires installing [AdvPrompter](https://github.com/facebookresearch/advprompter) and [PromptBench](https://github.com/microsoftarchive/promptbench). Therefore, this repository only includes p-nucleus sampling integrated AdvPrompter file, namely `advprompteropt.py`.
 
